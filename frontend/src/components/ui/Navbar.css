@@ -1,0 +1,51 @@
+.orange-navbar {
+  background: #fff;
+  color: #ff8800;
+  border-bottom: 1px solid #ffe5c2;
+  box-shadow: 0 2px 8px rgba(255, 136, 0, 0.04);
+}
+
+.orange-logo {
+  color: #ff8800;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -1px;
+  transition: color 0.2s;
+}
+
+.orange-logo:hover {
+  color: #ff6600;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-link {
+  color: #2d3748;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  color: #fff;
+  background: #ff8800;
+}
+
+@media (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
+  .navbar-links {
+    gap: 1rem;
+  }
+}

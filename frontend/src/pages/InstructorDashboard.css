@@ -1,0 +1,46 @@
+.instructor-orange-bg {
+  background: #fff8f0;
+}
+
+.instructor-orange-header {
+  background: #fff;
+  border-bottom: 1.5px solid #ffe5c2;
+}
+
+.instructor-orange-title {
+  color: #ff8800;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+}
+
+.instructor-orange-desc {
+  color: #ff8800;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.instructor-orange-card button,
+.instructor-orange-card .btn,
+.instructor-orange-card [type="submit"],
+.instructor-orange-header button {
+  background: #ff8800 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.instructor-orange-card button:hover,
+.instructor-orange-card .btn:hover,
+.instructor-orange-card [type="submit"]:hover,
+.instructor-orange-header button:hover {
+  background: #ff6600 !important;
+}
+
+.instructor-orange-card input:focus {
+  border-color: #ff8800;
+  box-shadow: 0 0 0 2px #ffe5c2;
+}

@@ -1,0 +1,46 @@
+.login-orange-bg {
+  background: #fff8f0;
+}
+
+.login-orange-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(255, 136, 0, 0.1);
+  border: 2px solid #fff4e0;
+}
+
+.login-orange-title {
+  color: #ff8800;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+}
+
+.login-orange-desc {
+  color: #ff8800;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.login-orange-card button,
+.login-orange-card .btn,
+.login-orange-card [type="submit"] {
+  background: #ff8800;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.login-orange-card button:hover,
+.login-orange-card .btn:hover,
+.login-orange-card [type="submit"]:hover {
+  background: #ff6600;
+}
+
+.login-orange-card input:focus {
+  border-color: #ff8800;
+  box-shadow: 0 0 0 2px #ffe5c2;
+}

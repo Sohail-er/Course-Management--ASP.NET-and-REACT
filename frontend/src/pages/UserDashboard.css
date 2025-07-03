@@ -1,0 +1,46 @@
+.user-orange-bg {
+  background: #fff8f0;
+}
+
+.user-orange-header {
+  background: #fff;
+  border-bottom: 1.5px solid #ffe5c2;
+}
+
+.user-orange-title {
+  color: #ff8800;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+}
+
+.user-orange-desc {
+  color: #ff8800;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.user-orange-card button,
+.user-orange-card .btn,
+.user-orange-card [type="submit"],
+.user-orange-header button {
+  background: #ff8800 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.user-orange-card button:hover,
+.user-orange-card .btn:hover,
+.user-orange-card [type="submit"]:hover,
+.user-orange-header button:hover {
+  background: #ff6600 !important;
+}
+
+.user-orange-card input:focus {
+  border-color: #ff8800;
+  box-shadow: 0 0 0 2px #ffe5c2;
+}
